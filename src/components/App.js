@@ -5,6 +5,7 @@ import { getPosts } from '../api';
 import { useAuth } from '../hooks';
 import { Home, Login } from '../pages';
 import { Loader, Navbar } from './';
+// import {API_ROOT} from '../utils/constants';
 
 
 // These are a few dummy cmponents whicha are rendered upon destroying the main page and change of route
@@ -36,6 +37,7 @@ function App() {
 
   return (
     // Here Router s used to render different pages( different elements ) upon every change in Route 
+    
      <div className="App">
       <Router>
         <Navbar />
